@@ -127,13 +127,6 @@ app.delete("/cart/:productId", (req, res) => {
     });
 });
 
-
-// (async () => {
-//     const password = "your_password";
-//     const hashedPassword = await bcrypt.hash(password, 10);
-//     console.log("Hashed Password:", hashedPassword);
-// })();
-
 app.listen(PORT, () => {
     console.log(`server is running on http://localhost:${PORT}`);
 })  
